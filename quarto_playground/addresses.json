@@ -1,0 +1,13 @@
+
+{
+    "data": [
+        {
+            "sender_name": "So and So with a Last Name",
+            "addressee": "Hiring Manager",
+            "address_line_1": "400 Michigan Ave",
+            "address_line_2": "Suite 664",
+            "city_state_zip": "Chicago, IL 60502",
+            "company_name": "Amazon"
+       }
+    ]
+}

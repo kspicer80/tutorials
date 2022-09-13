@@ -1,0 +1,26 @@
+---
+title: "Very Simple Mail Merge Test File"
+format:
+  md:
+    code-fold: true
+jupyter: python3
+---
+
+```{python}
+df = pd.read_json('addresses.json')
+
+```{python}
+{{addressee}}
+{{address_line_1}}
+{{address_line_2}}
+{{city_state_zip}}
+```
+Dear ```{python}{{addressee}}```,
+
+Hello, here is some text that we want to populate with our dynamic data. For example, we would like the ```{python}{{company_name}}``` to show up here. We might also want to be able to populate the ```{python}{{addressee}}``` field too!
+
+Here is where our salutation will go:
+
+Cordially,
+
+```{python}{{sender_name}}```
